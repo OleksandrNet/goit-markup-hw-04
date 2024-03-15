@@ -198,13 +198,13 @@ header .container {
   min-width: 169px;
   height: 56px;
   border: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .your-business-btn:hover,
 .your-business-btn:focus {
   background-color: #404bbf;
   background-color: #404bbf;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /*================ section1/end ============== */
 
@@ -282,6 +282,7 @@ header .container {
   border-bottom: 4px solid rgba(46, 47, 66, 0.08);
   border-radius: 0 0 4px 4px;
   flex-basis: calc((100% - 72px) / 4);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
@@ -320,7 +321,6 @@ header .container {
 .team-social-link {
   width: 40px;
   height: 40px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-icons-link {
@@ -361,7 +361,6 @@ header .container {
   text-align: center;
   color: #2e2f42;
   margin-bottom: 72px;
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-list {
@@ -369,6 +368,7 @@ header .container {
   width: calc((100% - 48px) / 3);
   border: 1px solid #e7e9fc;
   border-top: none;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-title-list {
@@ -475,6 +475,7 @@ footer .container {
   letter-spacing: 0.02em;
   color: #fff;
   margin-bottom: 16px;
+  display: flex;
 }
 
 .footer-social {
@@ -485,6 +486,9 @@ footer .container {
 .footer-social-link {
   width: 40px;
   height: 40px;
+}
+
+footer .team-icons-link {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
